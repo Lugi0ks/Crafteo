@@ -3,11 +3,6 @@ from tkinter import ttk
 from tkinter import *
 from typing import ValuesView
 
-def sel():
-    seleccion= str(op.get())
-
-
-
 
 class produc:
     def __init__(self,window):
