@@ -8,7 +8,6 @@ class produc:
     def __init__(self,window):
         self.wind = window
         self.wind.title('Calculadora de Crafteo')
-        op =IntVar()
         #Cuadrado para meter elementos
         frame = LabelFrame(self.wind, text='Iniciemos a calcular')
         frame.grid(row=0, column=0, columnspan=3, pady=6)
