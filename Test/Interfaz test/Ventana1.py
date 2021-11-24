@@ -10,7 +10,7 @@ class Ventana():
         self.ventana1 = tk.Tk()
         self.ventana1.title('Calculadora de Crafteo')
         #self.ventana1.config(bg="dark turquoise")
-        self.ventana1.iconbitmap('D:\Python\Craft2\Test\Interfaz test\icons.ico')
+        # self.ventana1.iconbitmap('D:\Python\Craft2\Test\Interfaz test\icons.ico')
 
         #Frame 1 y su contenido
         self.lf1 = LabelFrame(self.ventana1, text = 'Seleccion de Materiales')
